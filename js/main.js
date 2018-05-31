@@ -120,6 +120,7 @@ $(document).ready(function(){
     var slideHeight = $(window).height();
     
     $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
+    $('.caption-content').css('margin-top',(slideHeight/1.7));
 
     $(window).resize(function(){'use strict',
         $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);

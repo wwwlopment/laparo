@@ -156,7 +156,9 @@
 
 .bg-img-1 {
 	background-image: url(../img/galey/dsc_2014_0-1600x860-1-1200x675.jpg);
+    /*
 	filter: grayscale(100%);
+    */
 }
 .bg-img-2 {
 	background-image: url(../img/galey/front_img.png);
