@@ -57,6 +57,11 @@ main > section {
     padding: 70px 0;
 }
 
+tr:hover td {
+    background-color: #63a1b1;
+    color: #d0e6c7;
+}
+
 .btn {
     border-radius: 0;
     border: 0;
@@ -1128,7 +1133,11 @@ textarea.form-control {
     font-size: 12px;
 }
 
+.footer-social {
+    margin-top: 60px;
+    margin-bottom: 50px;
 
+}
 
 /*============================================================ 
 	Responsive Styles
@@ -1225,7 +1234,7 @@ textarea.form-control {
     }
 
     .parallax {
-        background-position: centet tip !important;
+        background-position: center, top !important;
     }
 
     .sec-title h2 {
@@ -1332,6 +1341,7 @@ textarea.form-control {
     .price-table {
         margin-bottom: 50px;
     }
+
 
 /* follow us */
     .social-button li:nth-child(2) {
